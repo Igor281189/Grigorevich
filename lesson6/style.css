@@ -1,0 +1,61 @@
+.common {
+    
+    background: url(img/twoball.png) 20% top no-repeat,
+                url(img/twoball.png) 20% bottom no-repeat,
+                url(img/ball1.png) top left no-repeat,
+                url(img/ball1.png) bottom left no-repeat,
+                url(img/ball1.png) top right no-repeat,
+                url(img/ball1.png) bottom right no-repeat,
+                url(img/fon.jpg) 20% top repeat-y;
+}
+.next {
+    background: url(img/ball1.png) top right no-repeat,
+                url(img/ball1.png) bottom right no-repeat, 
+                url(img/fonright.jpg) right top repeat-y;
+}
+.fast {
+    height: 40px;
+    color: blue;
+    background-color: #add8e6;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+.left {
+    float: left;      
+    box-sizing: border-box;
+    width: 20%;
+    padding: 10px;
+}
+.right {
+    float: right;
+    width: 200px;
+    text-align: center;
+    background: url(img/ball1.png) top left no-repeat,
+                url(img/ball1.png) bottom left no-repeat;
+    
+}
+.img {
+    float: left;
+    padding-right: 10px;
+}
+.content{
+    margin-left: 20%;
+    margin-right: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(img/ball1.png) top right no-repeat,
+                url(img/ball1.png) bottom right no-repeat;
+}
+.h{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 20px;
+}
+.text{
+    text-align: justify;
+}
