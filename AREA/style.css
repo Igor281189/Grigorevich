@@ -5,7 +5,11 @@
     background-color: blanchedalmond;
     width: 1140;
     margin: 0 auto;
-    padding: 10px;
+    
+}
+.content{
+    border: 40px solid transparent;
+    border-image: url(img/ramka.png) 100 100 100;
 }
 .header{
     text-align: center;
