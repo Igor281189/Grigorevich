@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.header{
+    background: #C4C4C4;
+}
+.conteiner{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+}
