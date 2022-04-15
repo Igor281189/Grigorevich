@@ -1,0 +1,49 @@
+table tr:first-child td:first-child{
+    background-color: brown;
+}
+table tr:first-child td:last-child{
+    background-color: cadetblue;
+}
+
+table tr:nth-child(2) td:first-child{
+    background-color: chartreuse;
+}
+table tr:nth-child(2) td:last-child{
+    background-color: coral;
+}
+table tr:last-child td{
+    background-color: crimson;
+}
+
+
+
+ul li:first-child  p a{
+    background: red;
+}
+ul li:nth-child(2) span em a{
+    background: green;
+}
+ul li:nth-child(3) p a{
+    background: blue;
+}
+ul li:last-child a{
+    background: yellow;
+}
+p span em{
+    background: violet;
+}
+p strong:first-child a{
+    background: aqua;
+}
+p i:last-child a {
+    background: gray;
+}
+ul li:first-child span em a{
+    background: indigo;
+}
+ul li:nth-child(2) em a{
+    background: orange;
+}
+ul li:last-child strong{
+    background: chocolate;
+}
