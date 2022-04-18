@@ -2,6 +2,8 @@
     box-sizing: border-box;
     font-family: 'Open Sans';
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 .clearfix:after { content: ""; display: block; clear: both }
 ul{
@@ -344,7 +346,32 @@ li.square p{
     border: 1px solid #BFBEBE;
     margin-top: 26px;
 }
-
+.found p{
+    float: left;
+    width: 152px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.found ul{
+    float: right;
+}
+.found ul li:last-child{
+    float: right;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 128px;
+    height: 44px;
+}
+.found ul li:first-child{
+    float: right;
+    
+}
 
 
 
