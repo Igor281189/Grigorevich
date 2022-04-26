@@ -174,11 +174,14 @@ li{
 .assortment li:last-child{
     color: #FF0C0C;
 }
+.ban{
+    background: url(img/st_banner\ 1.png) no-repeat;
+    background-size: 100%;
+}
 .banner{
     overflow: hidden;
-    height: 464px;
     width: 1428px;
-    background: url(img/st_banner\ 1.png) no-repeat;
+    
 }
 .banner>div{
     margin-top: 128px;
@@ -215,6 +218,7 @@ li{
     line-height: 22px;
     padding-left: 44px;
     padding-top: 9px;
+    margin-bottom: 188px;
 }
 .Snowboards p{
     width: 205px;
