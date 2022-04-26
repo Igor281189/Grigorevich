@@ -47,9 +47,6 @@ div:nth-child(2)>a{
 div:nth-child(2) a:last-child{
     border-right: none;
 }
-div:last-child{
-    background-color: aqua;
-}
 div:last-child ul{
     height: 26px;
 }
