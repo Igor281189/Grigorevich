@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.conteiner{
+    width: 1140px;
+    margin: 0 auto;
+}
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block;
+    height: 0; 
+    clear: both 
+}
+.hader{
+    background-color: #add8e6;
+    text-align: center;
+    color: blue;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.menu{
+    width: 200px;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+.menu ul{
+    margin-left: 10px;
+}
+.content{
+    background-color: bisque;
+}
+.text{
+    background: url(img/ball.jpeg) right top repeat-y white;
+    margin-left: 210px;
+}
+.text>img{
+    float: left;
+    padding: 10px;
+}
+.text>p{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,26 @@
+@media all and (max-width: 1170px){
+   .conteiner{
+       width: 546px;
+   } 
+   h2{
+       font-size: 15px;
+   }
+   .text>img{
+        padding-left: 65px;
+        float: none;
+   }
+}
+@media all and (max-width: 570px){
+    .conteiner{
+        width: 320px;
+    } 
+    h2{
+        font-size: 14px;
+    }
+    .menu{
+        float: none;
+    }
+    .text{
+        margin-left: 0;
+    }
+}
