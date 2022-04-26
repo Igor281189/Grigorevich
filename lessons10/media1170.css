@@ -23,4 +23,11 @@
     .text{
         margin-left: 0;
     }
+    .text>img{
+        float: none;
+        width: 270px;
+   }
+   .text>p{
+    padding: 0 10px;
+   }
 }
