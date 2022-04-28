@@ -277,6 +277,15 @@
         float: none;
         padding-bottom: 10px;
     }
+    .ban{
+        height: 152px;
+    }
+    .ban>div{
+        height: 152px;
+    }
+    .banner>div{
+        margin: 0;
+    }
     .banner>div h3{
         font-size: 16px;
     }
@@ -289,8 +298,12 @@
     .Snowboards p{
         margin-top: 0;
     }
+    .left_menu{
+        float: none;
+    }
     .rght_menu{
         float: none;
+        clear: both;
     }
     .rght_menu>div{
         float: none;
