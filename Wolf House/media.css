@@ -1,0 +1,347 @@
+@media all and (max-width: 1170px){
+    .conteiner{
+        width: 992px;
+    }
+    .search {
+        width: 390px;
+    }
+    .rght_menu{
+        width: 632px;
+    }
+    .rght_menu div:nth-child(2){
+        margin-left: 44px;
+    }
+    .product_card{
+        margin-left: 60px;
+    }
+    .jones {
+        margin-left: 55px;
+    }
+    .travel{
+        margin-left: 565px;
+    }
+    .Best_Sellers ul{
+        width: 236px;
+        height: 236px;
+    }
+    .Best_Sellers img{
+        width: 120px;
+        height: 120px;
+    }
+    .help div{
+        width: 496px;
+    }
+    .help div:first-child ul li:nth-child(3){
+        margin-left: 182px;
+    }
+    .fotter div:first-child ul{
+        margin-right: 100px;
+    }
+    .fotter div:nth-child(2) ul{
+        margin-right: 100px;
+    }
+    .fotter div:nth-child(3) ul{
+        margin-right: 100px;
+    }
+    .footer_logo p:last-child{
+        float: none;
+    }
+}
+@media all and (max-width: 1022px){
+    .conteiner{
+        width: 768px;
+    } 
+    .logo img{
+        margin-left: 0;
+    }
+    .search{
+        margin-left: 12px;
+        width: 305px;
+    }
+    .batton_menu{
+        margin-left: 0px;
+        margin-right: 12px
+    }
+    .assortment li{
+        padding-right: 18px;
+    }
+    .assortment{
+        width: 610px;
+    }
+    .assortment li:first-child{
+        padding-left: 50px;
+    }
+    .banner>div{
+        width: 646px;
+        height: 207px;
+        margin-left: 0;
+    }
+    .Snowboards p{
+        margin-left: 0;
+    }
+    .left_menu{
+        margin-left: 0;
+    }
+    .rght_menu{
+        width: 512px;
+    }
+    .rght_menu div:first-child p{
+        margin-left: 17px;
+    }
+    .rght_menu div:nth-child(2){
+        margin-left: 15px;
+        width: 100px;
+    }
+    .rght_menu div:nth-child(2) p:nth-child(2) {
+    width: 15px;
+    }
+    .rght_menu div:last-child{
+        margin-left: 20px;
+        width: 208px;
+    }
+    .product_card{
+        margin-left: 11px;
+    }
+    .jones{
+        margin-left: 0;
+        width: 256px;
+    }
+    .jones ul li:nth-child(2) p{
+        margin-left: 0;
+    }
+    .jones ul li:nth-child(3) p{
+        margin-left: 0;
+    }
+    .travel{
+        margin-top: 0;
+        margin-left: 360px;
+    }
+    .line29 img{
+        width: 100%;
+    }
+    .Best_Sellers ul{
+        margin-left: 105px;
+    }
+    .Best_Sellers ul:nth-child(3){
+        margin-top: 20px;
+    }
+    .Best_Sellers ul:last-child{
+        margin-top: 20px;
+    }
+    .help div{
+        width: 384px;
+    }
+    .help div:first-child ul li:nth-child(3){
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .help div:last-child ul li:last-child{
+        margin-left: 15px;
+    }
+    .help div:last-child ul li:nth-child(3){
+        margin-left: 15px;
+    }
+    .footer_menu ul{
+        margin-left: 0;
+    }
+    .footer_menu ul li{
+        margin-right: 35px;
+    }
+    .fotter div:first-child ul{
+        margin-right: 27px;
+    }
+    .fotter div:nth-child(2) ul{
+        margin-right: 27px;
+    }
+    .fotter div:nth-child(3) ul{
+        margin-right: 27px;
+    }
+}
+@media all and (max-width: 768px){
+    .conteiner{
+        width: 560px;
+    }
+    .header{
+        height: auto;
+    }
+    .menu_right {
+        margin-top: 15px;
+        margin-right: 125px;
+        margin-bottom: 15px;
+    }
+    .search{
+        margin-left: 27px;
+    }
+    .menu{
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .assortment{
+        margin-top: 10px;
+    }
+    .assortment li:first-child{
+        padding-left: 0px;
+        padding-right: 27px;
+    }
+    .banner{
+        width: auto;
+    }
+    .banner>div{
+        margin-top: 50px;
+    }
+    .banner>div h3{
+        width: auto;
+        font-size: 28px;
+    }
+    .rght_menu{
+        float: right;
+        width: 250px;
+        margin-left: 20px;
+    }
+    .rght_menu div:last-child{
+        margin-left: 16px;
+    }
+    .product_card{
+        margin-left: 58px;
+    }
+    div.product_card:nth-child(7){
+        margin-left: 314px;
+    }
+    div.product_card:nth-child(8){
+        margin-left: 322px;
+    }
+    div.jones:first-child{
+        margin-left: 322px;
+    }
+    .jones{
+        margin-left: 23px;
+    }
+    .travel {
+        margin-left: 140px;
+    }
+    .Best_Sellers ul{
+        margin-left: 28px;
+    }
+    .help{
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    } 
+    .help div:first-child{
+        float: none;
+        width: 100%;
+    }
+    .help div:last-child{
+        float: none;
+        margin: 0 auto;
+    }
+    .fotter div:first-child ul{
+        margin-right: 50px;
+    }
+    .fotter div:nth-child(2) ul{
+        margin-right: 55px;
+    }
+    div.fotter div:last-child{
+        margin-left: 165px;
+        margin-top: 25px;
+    }
+}
+@media all and (max-width: 590px){
+    .conteiner{
+        width: 320px;
+    }
+    .logo{
+        width: 166px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .search{
+        margin: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .cart img{
+        margin-top: 10px;
+    }
+    .menu{
+        height: 250px;
+    }
+    .menu_right {
+        margin-right: 70px;
+    }
+    .assortment {
+        width: 100%;
+    }
+    .assortment>li{
+        float: none;
+        padding-bottom: 10px;
+    }
+    .banner>div h3{
+        font-size: 16px;
+    }
+    .banner h4{
+        font-size: 14px;
+    }
+    .button {
+        margin-top: 20px;
+    }
+    .Snowboards p{
+        margin-top: 0;
+    }
+    .rght_menu{
+        float: none;
+    }
+    .rght_menu>div{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .product_card {
+        margin-left: 13px;
+    }
+    div.product_card:nth-child(7){
+        margin-left: 16px;
+    }
+    div.product_card:nth-child(8){
+        margin-left: 16px;
+    }
+    .travel {
+        margin-left: 18px;
+    }
+    .Best_Sellers ul{
+        margin-bottom: 20px;
+    }
+    .Best_Sellers ul:nth-child(3){
+        margin-top: 0;
+    }
+    .Best_Sellers ul:last-child{
+        margin-top: 0;
+    }
+    .help div:last-child{
+        width: 100%;
+    }
+    .help div:last-child ul li:last-child{
+        width: 100%;
+    }
+    .footer_menu{
+        height: 235px;
+        overflow: hidden;
+    }
+    .footer_menu ul{
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    div.footer_menu>div>ul>li{
+        float: none;
+        padding-bottom: 10px;
+        height: auto;
+    }
+    .fotter div{
+        margin-bottom: 20px;
+    }
+    div.fotter div:last-child{
+        margin-left: 0;
+    }
+}
+    

@@ -375,11 +375,14 @@ li{
     float: right;
     margin-top: 9px;
 }
-.right_menu{
+.rght_menu{
     float: left;
     width: 804px;
 }
-.right_menu div:first-child p{
+.rght_menu div:first-child{
+    float: left;
+}
+.rght_menu div:first-child p{
     float: left;
     width: 152px;
     height: 22px;
@@ -390,7 +393,7 @@ li{
     margin-top: 11px;
     margin-left: 20px;
 }
-.right_menu div:nth-child(2){
+.rght_menu div:nth-child(2){
     float: left;
     width: 128px;
     height: 44px;
@@ -399,7 +402,7 @@ li{
     border-radius: 4px;
     margin-left: 200px;
 }
-.right_menu div:nth-child(2) p:first-child{
+.rght_menu div:nth-child(2) p:first-child{
     float: left;
     width: 37px;
     height: 20px;
@@ -411,7 +414,7 @@ li{
     margin-top: 12px;
     margin-left: 12px;
 }
-.right_menu div:nth-child(2) p:nth-child(2)
+.rght_menu div:nth-child(2) p:nth-child(2)
 {   float: left;
     width: 41px;
     height: 22px;
@@ -423,12 +426,12 @@ li{
     margin-top: 11px;
     margin-left: 8px;
 }
-.right_menu div:nth-child(2) img:last-child{
+.rght_menu div:nth-child(2) img:last-child{
     float: left;
     margin-top: 20px;
     margin-left: 10px;
 }
-.right_menu div:last-child{
+.rght_menu div:last-child{
     float: left;
     width: 223px;
     height: 32px;
@@ -438,7 +441,7 @@ li{
     margin-left: 65px;
     margin-top: 6px;
     }
-    .right_menu div:last-child p:first-child{
+    .rght_menu div:last-child p:first-child{
         float: left;
         width: 59px;
         height: 22px;
@@ -450,7 +453,7 @@ li{
         margin-top: 5px;
         margin-left: 8px;
     }
-    .right_menu div:last-child p:nth-child(2){
+    .rght_menu div:last-child p:nth-child(2){
         float: left;
         margin-top: 5px;
         margin-left: 6px;
@@ -462,7 +465,7 @@ li{
         text-align: center;
         letter-spacing: 0.03em;
     }
-    .right_menu div:last-child img:last-child{
+    .rght_menu div:last-child img:last-child{
         float: left;
         margin-left: 15px;
         margin-top: 12px;
@@ -603,6 +606,7 @@ li{
        width: 160px;
        height: 32px;
        margin-top: 32px;
+       margin: 0 auto;
    }
    .page p{
        float: left;
@@ -926,7 +930,6 @@ li{
     float: left;
 }
 .footer_logo p:last-child{
-    float: right;
     height: 16px;
     font-weight: 400;
     font-size: 12px;
