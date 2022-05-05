@@ -9,9 +9,22 @@
     height: 0; 
     clear: both 
 }
+.first{
+    width: 390px;
+    font: 78px;
+}
+.star0{
+    background: url(img/star0.png) no-repeat;
+    width: 75px;
+    height: 78px;
+    float: left;
+}
 ul{
     list-style: none;
 }
-li{
-    float: left;
+ul.star li{
+    width: 75px;
+    height: 78px;
+    float: right;
+    /* visibility: hidden; */
 }

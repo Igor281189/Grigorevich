@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKET_FORM</title>
+</head>
+<body>
+    <form action="https://fe.it-academy.by/TestForm.php" method="post">
+        <fieldset>
+            <legend>Расскажите о себе</legend>
+            Фамилия:<input type="text" name="Фамилия"><br>
+            Имя:<input type="text" name="Имя"><br>
+            Отчество:<input type="text" name="Отчество"><br>
+            E-mail для связи:<input type="text" name="E-mail для связи"><br>
+            Согласен с правилами сайта <input type="checkbox" checked name="Согласие с правилами" value="yes"><br>
+            Вид деятельности: <br> <label for="">
+                                        <input type="radio" name="Вид детельнсти" value="Вид детельнсти">Студент</label><br>
+                            <label for=""><input type="radio" name="Вид детельнсти">Работающий</label><br> 
+                            <label for=""><input type="radio" name="Вид детельнсти" checked>Безработный</label><br>
+                            <label for=""><input type="radio" name="Вид детельнсти">Студент</label><br>   
+
+            Категория прав: <br>
+            <label for=""><input type="checkbox" name="A">A</label><br>
+            <label for=""><input type="checkbox" name="B">B</label><br>
+            <label for=""><input type="checkbox" name="C">C</label><br>
+            <label for=""><input type="checkbox" name="D">D</label><br>
+            <label for=""><input type="checkbox" name="E">E</label><br>
+            Желаемое ЗП: <br>
+            <select name="Желаемое ЗП" id="">
+                <option value="1">100$</option>
+                <option value="2">200$</option>
+                <option value="3">300$</option>
+                <option value="4">400$</option>
+                <option value="5">50$</option>
+            </select><br>
+            <textarea name="Отзыв" id="" cols="30" rows="10"></textarea><br>
+
+            <input type="submit" value="Регистрация">
+        </fieldset>
+    </form>
+</body>
+</html>

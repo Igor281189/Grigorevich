@@ -1,0 +1,12 @@
+*{
+    display: block;
+}
+form label:first-child{
+    padding-bottom: 20px;
+}
+form label:nth-child(2){
+    float: left;
+}
+[type="text"]{
+    margin-left: 50px;
+}
