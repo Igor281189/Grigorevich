@@ -9,22 +9,21 @@
     height: 0; 
     clear: both 
 }
-.first{
+.star1{
     width: 390px;
-    font: 78px;
 }
 .star0{
     background: url(img/star0.png) no-repeat;
-    width: 75px;
-    height: 78px;
-    float: left;
-}
-ul{
-    list-style: none;
-}
-ul.star li{
-    width: 75px;
-    height: 78px;
     float: right;
-    /* visibility: hidden; */
+    width: 75px;
+    height: 78px;
+    padding-right: 3px;
 }
+.star0:hover{
+    background: url(img/star1.png) no-repeat;
+}
+.star0:hover~div{
+    background: url(img/star1.png) no-repeat;
+}
+
+
