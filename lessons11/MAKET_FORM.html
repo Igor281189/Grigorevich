@@ -13,6 +13,7 @@
         .conteiner{
             width: 1140px;
             margin: 0 auto;
+            padding: 10px;
         }
         .heder{
             margin-bottom: 10px;
@@ -33,18 +34,41 @@
             margin-bottom: 10px;
         }
         textarea{
-            width: 100%;
+            width: 50%;
             height: 100px;
             resize: none;
+            margin-bottom: 10px;
         }
-        [type="text"]{
-            width: 910px;
-        }
+        
         [name="category"]{
             width: 250px;
         }
+        .title_text{
+            margin-left: 180px;
+            margin-bottom: 10px;
+        }
+        div.title_text input{
+            margin-left: 0;
+            margin-bottom: 0;
+            width: 100%;
+        }
+        [name="category"]{
+            display: block;
+        }
+        .radio{
+            margin-left: 0;
+            display: block;        
+        }
+        [name="Allow_comments"]{
+            display: block;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-bottom: 5px;
+        }
         
     </style>
+    <link rel="stylesheet" href="media_form.css">
     <title>MAKET_FORM</title>
 </head>
 <body>
@@ -54,13 +78,15 @@
              Для публикации вашей статьи заполните, пожалуйста, следующую форму:
             </p>
             <p class="title">Название статьи:</p>
-            <input type="text" name="title_text"><br>
+            <div class="title_text clearfix">
+                <input type="text" name="title_text">
+            </div>
             <p class="category">Рубрика:</p>
             <select name="category">
                 <option value="computer_equipment">компьютерная техника</option>
                 <option value="graphics_design">графика и дизайн</option>
                 <option value="programming">программирование</option>
-            </select> <br>
+            </select> 
             <p class="Publication">Публикация:</p>
             <label class="radio">
                 <label>
@@ -72,9 +98,9 @@
                 <label>
                     <input type="radio" name="Publication" value="website_magazine"> на сайте и в журнале
                 </label>
-            </label> <br>
+            </label>
             <p class="Allow_comments">Разрешить комментарии:</p>
-            <input type="checkbox" name="Allow_comments" value="yes" checked> <br>
+            <input type="checkbox" name="Allow_comments" value="yes" checked>
             <p>Текст статьи:</p>
             <textarea name="Ttext_article"></textarea><br>
             <button type="submit">Опубликовать</button>

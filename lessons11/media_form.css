@@ -1,0 +1,34 @@
+@media all and (max-width: 570px){
+    .conteiner{
+        width: 320px;
+        background-color: yellowgreen;
+    }
+    .title{
+        width: 119px;
+    }
+    .title_text{
+        margin-left: 120px;
+    }
+    [name="category"]{
+        width: 100%;
+        margin-left: 0;
+    }
+    .category,.Publication{
+        margin-bottom: 5px;
+    }
+    .radio{
+        width: 100%;
+    }
+    .Publication{
+        float: none;
+    }
+    .radio>label{
+        display: block;
+    }
+    textarea {
+        width: 100%;
+        height: 100px;
+        resize: none;
+        margin-bottom: 10px;
+    }
+}
