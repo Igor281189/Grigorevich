@@ -9,6 +9,14 @@
         padding-left: 65px;
         float: none;
    }
+   .fixed{
+        position: fixed;
+        right: 320px;
+        top: 12px;
+        width: 70px;
+        height: 27px;
+        font-size: 12px;
+   }
 }
 @media all and (max-width: 570px){
     .conteiner{
@@ -31,4 +39,8 @@
    .text>p{
     padding: 0 10px;
    }
+   .fixed{
+    right: 140px;
+    top: 30px;
+    }
 }
