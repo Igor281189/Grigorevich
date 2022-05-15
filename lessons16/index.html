@@ -20,6 +20,19 @@
         a{
             text-decoration: none;
         }
+        video{
+            width: 400px;
+            height: 320px;
+        }
+        .wrap{
+            width: 420px;
+            height: 600px;
+            overflow: auto;
+            margin: 0 auto;
+        }
+        .wrap > div{
+            margin-bottom: 20px;
+        }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>video</title>
@@ -27,10 +40,22 @@
 <body>
     <div class="conteiner">
         <p>
-            Мои любимые клипы:
+            Подборка клипов:
         </p>
-        <video src="https://www.youtube.com/watch?v=i115WzqidlE" width=400 height=320 preload controls autoplay loop></video><br>
-        <a href="https://www.youtube.com/watch?v=i115WzqidlE" title="Benny Benassi-Satisfaction" target="_blank">Смотреть клип в новом окне</a>
+        <div class="wrap">
+            <div>
+                <video src="https://www.youtube.com/watch?v=i115WzqidlE" preload controls autoplay loop></video><br>
+                <a href="https://www.youtube.com/watch?v=i115WzqidlE" title="Benny Benassi-Satisfaction" target="_blank">Смотреть клип в новом окне</a>
+            </div>
+            <div>
+                <video src="https://www.youtube.com/watch?v=4p9kZobAUJ8" preload controls autoplay loop></video><br>
+                <a href="https://www.youtube.com/watch?v=4p9kZobAUJ8" title="Benny Benassi-Satisfaction" target="_blank">Смотреть клип в новом окне</a>
+            </div>
+            <div>
+                <video src="https://www.youtube.com/watch?v=DUT5rEU6pqM" preload controls autoplay loop></video><br>
+                <a href="hhttps://www.youtube.com/watch?v=DUT5rEU6pqM" title="Benny Benassi-Satisfaction" target="_blank">Смотреть клип в новом окне</a>
+            </div>  
+        </div>             
     </div>
 </body>
 </html>
