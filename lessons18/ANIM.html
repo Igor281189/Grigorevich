@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .wrap{
+            width: 800px;
+            height: 600px;
+            border: solid red;
+            position: relative;
+        }
+        .wrap>div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+        .one{
+            background-color: greenyellow;
+            animation: one 3s infinite;
+
+        }
+        .two{
+            background-color: aquamarine;
+            top: 140px;
+            left: 245px;
+        }
+        .three{
+            background-color: burlywood;
+            top: 360px;
+            left: 490px;
+        }
+        .text{
+            text-align: center;
+            margin-top: 70px;
+            font-size: 60px;
+        }
+        @keyframes one{
+            frome{
+                background-color: yellowgreen;
+                color: black;
+            }
+            50%{
+                background-color: blueviolet;
+            }
+            to{
+                background-color: cadetblue;
+                color: white;
+            }
+        }
+        @keyframes two{
+            frome{
+                background-color: aquamarine;
+                color: blue;
+            }
+            30%{
+                background-color: bisque;
+                color: black;
+            }
+            70%{
+                background-color: magenta;
+                color: white;
+            }
+            to{
+                background-color: red;
+                color: whitesmoke;
+            }
+        }
+        @keyframes three{
+            frome{
+                background-color: burlywood;
+                color: white;
+                font-weight: 900;
+            }
+            50%{
+                background-color: cornflowerblue;
+                color: white;
+                font-weight: 900;
+            }
+            to{
+                background-color: royalblue;
+                font-weight: 900;
+                color: white;
+            }
+        }
+        .wrap:hover>.two{
+            background-color: rgb(165, 127, 255);
+            top: 40px;
+            left: 345px;
+            border: solid 5px red;
+            animation: two 5s infinite;
+        }
+        .wrap:hover>.three{
+            background-color: rgb(127, 255, 144);
+            top: 340px;
+            left: 45px;
+            animation: three 1s infinite;
+            border: solid 7px red;
+        }
+        .wrap:hover>.one{
+            left: 445px;
+            top: 280px;
+            border: solid 12px red;
+        }
+    </style>
+    <title>ANIM</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="one">
+            <p class="text">Блок 1</p>
+        </div>
+        <div class="two">
+            <p class="text">Блок 2</p>
+        </div>
+        <div class="three">
+            <p class="text">Блок 3</p>
+        </div>
+    </div>
+</body>
+</html>

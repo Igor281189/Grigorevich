@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .roof:hover{
+            fill: yellowgreen;
+            stroke: aqua;
+        }
+        .build:hover{
+            fill: rgb(155, 21, 233);
+            stroke: rgb(71, 233, 22);
+            width: 300px;
+            height: 180px;
+        }
+        .window:hover{
+            fill:orange;
+            stroke: red;
+            width: 105px;
+            height: 100px;
+        }
+    </style>
+    <title>SVG</title>
+</head>
+<body>
+    <svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+        <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+        <g>
+         <title>background</title>
+         <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+         <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+          <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+         </g>
+        </g>
+        <g>
+         <title>Layer 1</title>
+         <path class="roof" stroke="#000" id="svg_9" d="m131.4925,146.28399l149.50002,-134.00001l149.50002,134.00001l-299.00005,0z" stroke-opacity="null" stroke-width="1.5" fill="#7f0000"/>
+         <rect class="build" id="svg_11" height="168" width="253" y="146.45313" x="153.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ff7f00"/>
+         <rect class="window" id="svg_12" height="67" width="84" y="199.45313" x="234.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffaa"/>
+        </g>
+       </svg>
+</body>
+</html>
