@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+</head>
+<body>
+    <input type="button" value="1" onclick="getNamber(1)">
+    <input type="button" value="2" onclick="getNamber(2)">
+    <input type="button" value="3" onclick="getNamber(3)"><br>
+    <input type="button" value="4" onclick="getNamber(4)">
+    <input type="button" value="5" onclick="getNamber(5)">
+    <input type="button" value="6" onclick="getNamber(6)"><br>
+    <input type="button" value="7" onclick="getNamber(7)">
+    <input type="button" value="8" onclick="getNamber(8)">
+    <input type="button" value="9" onclick="getNamber(9)"><br>
+    <input type="button" value="0" onclick="getNamber(0)">
+    <input type="button" value="+" onclick="getSimv('+')">
+    <input type="button" value="-" onclick="getSimv('-')"><br>
+    <input type="button" value="*" onclick="getSimv('*')">
+    <input type="button" value="/" onclick="getSimv('/')">
+    <input type="button" value="=" onclick="getResult()">
+
+    <script>
+        var nam1=null
+        var nam2=null
+        var simv=null
+
+        function getNamber (x){
+            if (nam1===null){
+                nam1=x;
+                console.log (nam1);
+            }else {
+                nam2=x;
+                console.log(nam2);
+            }
+        }
+        function getSimv(x){
+            simv=x;
+            console.log(simv)
+        }
+        function getResult(){
+            switch(simv){
+                case('+'):console.log(nam1+nam2); break;
+                case('-'):console.log(nam1-nam2); break;
+                case('*'):console.log(nam1*nam2); break;
+                case('/'):console.log(nam1/nam2); break;
+            }
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
