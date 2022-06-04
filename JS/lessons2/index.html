@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+</head>
+<body>
+    
+    <input type="button" value="Ввод информации по стране" onclick="addCountry(prompt('Введите страну', 'Germany') , prompt('Введите столицу', 'Berlin'))">
+    <input type="button" value="Получение информации о стране" onclick="getCountryInfo(prompt('Введите страну столицу котрой вы хотели бы узнать' , 'Germany'))">
+    <input type="button" value="перечень всех стран" onclick="listCountrys()">
+    <input type="button" value="удаление информации о стране" onclick="deleteCountry(prompt('Введите страну', 'Germany'))">
+
+    <script>
+        var countrysH={};
+        function addCountry(countryName,capitalName) {
+        countrysH[countryName]=capitalName;
+        console.log(countrysH)
+    }
+
+    function getCountryInfo(countryName) {
+        if ( countryName in countrysH )
+        console.log('страна: ' + countryName + ' столица: ' + countrysH[countryName]) ;
+        else
+            console.log( 'нет информации о стране ' + countryName + '!') ;
+            
+    }
+
+    function listCountrys() {
+        var res="";
+        for ( var CN in countrysH )
+            res+='\n'+getCountryInfo(CN);
+        console.log(res) ;
+    }
+
+    function deleteCountry(x){
+        delete countrysH[x];
+    }
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>

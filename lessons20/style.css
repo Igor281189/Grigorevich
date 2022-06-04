@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+.haeader, .footer {
+  background-color: #add8e6;
+  color: blue;
+  text-align: center;
+  padding: 10px; }
+
+.wrap {
+  display: grid; }
+
+.menu {
+  background-color: bisque;
+  padding: 10px; }
+  .menu ul {
+    padding-left: 20px; }
+
+.content img {
+  float: left;
+  padding: 5px; }
+.content p {
+  text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
