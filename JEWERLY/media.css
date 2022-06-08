@@ -1,0 +1,65 @@
+@media all and (max-width:400px){
+    .conteiner{
+        width: 320px;
+    }
+    .wrap .conteiner .content .wrConteiner{
+            width: 642px;
+    }
+    .wrap .conteiner .content .wrConteiner .sorting div:first-child {
+        width: 562px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
